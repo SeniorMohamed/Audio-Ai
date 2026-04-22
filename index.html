@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>هزاع AI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: #050505;
+        color: #f8fafc;
+        margin: 0;
+        overflow-x: hidden;
+      }
+      .font-cairo { font-family: 'Cairo', sans-serif; }
+      .font-mono { font-family: 'JetBrains Mono', monospace; }
+      
+      /* Atmospheric background */
+      .bg-studio {
+        background: 
+          radial-gradient(circle at 50% 0%, #1e293b 0%, transparent 50%),
+          radial-gradient(circle at 100% 100%, #0f172a 0%, transparent 50%),
+          radial-gradient(circle at 0% 100%, #020617 0%, transparent 50%);
+        min-height: 100vh;
+      }
+    </style>
+    <link rel="stylesheet" href="/index.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
